@@ -29727,7 +29727,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="225"/>
         <source>Measure (OTF off)</source>
-        <translation type="unfinished"></translation>
+        <translation>測定(OTFオフ)</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="231"/>
@@ -29752,7 +29752,7 @@ not displayed</source>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="239"/>
         <source>Measure (OTF on)</source>
-        <translation type="unfinished"></translation>
+        <translation>測定(OTFオン)</translation>
     </message>
     <message>
         <location filename="../src/app/qgsmeasuredialog.cpp" line="244"/>
