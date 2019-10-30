@@ -33,6 +33,7 @@
 #include <QDesktopWidget>
 #include <QImageReader>
 #include <QMessageBox>
+#include <QtWebEngine>
 
 #include <cstdio>
 #include <cstdlib>
@@ -1007,6 +1008,7 @@ int main( int argc, char *argv[] )
   }
 
   QgsApplication myApp( argc, argv, myUseGuiFlag );
+  QtWebEngine::initialize();
 
   //write the log messages written before creating QgsApplication
   for ( const QString &preApplicationLogMessage : qgis::as_const( preApplicationLogMessages ) )
